@@ -1,0 +1,16 @@
+"use strict";
+// type User = {
+//     name: string
+//     age:number
+//     city: string
+// }
+Object.defineProperty(exports, "__esModule", { value: true });
+const formatUserprofile = (user) => {
+    return `${user.name} is ${user.age} years old liven in ${user.city}`;
+};
+console.log(formatUserprofile({
+    name: 'Fahim',
+    age: 22,
+    city: 'Dhaka'
+}));
+//# sourceMappingURL=problem3.js.map
